@@ -1,23 +1,23 @@
 openapi: 3.0.3
 info:
   version: 1.0.0
-  title: NEO API
+  title: AZURE OPEN API wrapped by onepoint
   description: |
-    This API will allow you to prompt our Azure OpenAI instance which serves our NEO internal tool.
+    This API will allow you to prompt our Azure OpenAI instance which is wrapped by onepoint.
   contact:
     email: l.leprestre@groupeonepoint.com
 servers:
-  - description: Environment PREPROD
+  - description: Environment
     url: https://neoback.azurewebsites.net
 paths:
   /azureai:
     post:
       summary: Prompt our instance
       description: |
-        Get a response from our instance
+        To provide context, it is recommended to **use the API response separated from your prompt by a line break**.
       tags:
         - Azure OpenAI
-      operationId: createCompany
+      operationId: postPrompt
       security:
         - bearerAuth: []  # Reference the security scheme name here
       requestBody:
@@ -29,7 +29,7 @@ paths:
               properties:
                 aiRequest:
                   type: string
-                  example: "Bonjour Neo"
+                  example: "Bonjour Toto"
         description: The request body for the AI prompt
       responses:
         '200':
