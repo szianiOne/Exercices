@@ -34,6 +34,14 @@ Important: Un Bearer token est nécessaire, n'hésitez pas à nous le demander a
 
 Conseil: le contexte sur une instance d'IA Gen concerne l'historique de toutes les réponses et prompts généré par l'IA Gen. Sur mon premier prompt l'IA ne possède aucun contexte. Sur mon deuxième prompt il faut que ma communication avec l'IA Gen ait en mémoire mon premier prompt et sa première réponse.
 
+## Interprétez les réponses de l'IA via du Markdown
+
+- Sur votre front toutes réponses de l'IA contenant du Markdown doitvent s'afficher en conséquence (ex: les extraits de code sous fonds noir)
+
+## Possibilité de copier/coller
+
+- Donnez la possibilité à l'utilisateur de copier les réponses de l'IA via un bouton
+
 ## Imaginer une application basée sur cette API
 
 - Avec l'aide de chef de projet et de votre assistant essayez d'imaginer une application autour de ce boilerplate
