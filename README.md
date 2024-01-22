@@ -38,9 +38,19 @@ Conseil: le contexte sur une instance d'IA Gen concerne l'historique de toutes l
 
 - Sur votre front toutes réponses de l'IA contenant du Markdown doitvent s'afficher en conséquence (ex: les extraits de code sous fonds noir)
 
+## Les réponses de l'IA sous forme de tableau
+
+- Demandez à l'IA de produire un tableau avec des données d'exemple
+- Réussir à présenter la réponse retournée par l'IA sous forme de tableau
+
 ## Possibilité de copier/coller
 
 - Donnez la possibilité à l'utilisateur de copier les réponses de l'IA via un bouton
+
+## Postez votre projet sur Github en privé et implémentez une CI/CD basique
+
+- Configurez git sur votre projet et postez le sur Github
+- Créez une CI/CD avec github actions
 
 ## Imaginer une application basée sur cette API
 
