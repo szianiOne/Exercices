@@ -26,7 +26,7 @@ Heureusement votre assistant IA et moi même sont à vos côtés pour vous aider
 - Créer un client http dans votre projet.
 - Communiquer avec l'interface qu'on vous a fourni dans une spécification open api.
 - Vous avez la possibilité d'importer cette interface dans swagger editor, afin de l'a visualiser et d'interagir en amont avec cette api ou d'utiliser ce lien: https://app.swaggerhub.com/apis/ZIANISAMI0/NeoAPI/1.0.0
-- Bonus: Essayer de gérer le contexte en gérant la réponse de notre instance
+- Bonus: Essayer de gérer le contexte en gérant la réponse de notre instance. Pour garder le contexte concaténer toutes les réponses et questions avec un \n
 
 - USE THIS Bearer: 
 
